@@ -36,3 +36,225 @@
     transform: rotate(360deg);
   }
 }
+
+.float-left {
+  float: left; display: block; position: relative;
+}
+
+.editBtn {
+  margin: 20px auto 20px 10px;
+}
+
+.containerdivNewLine {
+  clear: both; 
+  float: left; 
+  display: inline-flex;
+  position: relative;
+}
+
+.contact {
+  border-top: 2px solid #61dafb;
+  margin-top: 2%;
+}
+
+.overlay {
+  
+  width: 100%;
+  height: 10%;
+  z-index: 1;
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.centerLogin {
+  max-width: 50vw;
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.preLogged {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://media.deseretdigital.com/file/aa89988589?type=jpeg&quality=55&c=15&a=4379240d);
+}
+
+.postLogged {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.script-box {
+  will-change: width, height, left, top;
+  position: relative;
+}
+
+.logBtn {
+  background-color: rgb(68, 68, 68);
+  border: 1pt solid white;
+  color: white;
+}
+
+#welcome {
+  float: left;
+
+}
+
+#logout {
+  float: right;
+  margin: 20px;
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 100px;
+}
+
+.Login {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#welcome-logout-container {
+  width: 100%;
+  display: inline-block;
+}
+
+#image-header {
+  display: block;
+  width: 8em;
+  margin: 20px auto -20px auto;
+}
+
+#image-header h1 {
+  margin-top: 0;
+}
+
+#image-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  height: 15vh;
+  width: 15vh;
+  object-fit: cover;
+}
+
+#addBtn {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+#meta-container {
+  border-bottom: 1px solid black;
+}
+
+#meta-container h1{
+  display: inline-block;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#name-meta {
+  min-width: 15vw;
+  margin-left: 72px;
+}
+
+#phone-meta {
+  min-width: 15vw;
+}
+
+#email-meta {
+  min-width: 25vw;
+}
+
+#company-meta {
+  min-width: 20vw;
+}
+
+#contact-container {
+  width: 100vw;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#contact-container:hover {
+  background-color: rgb(221, 221, 221);
+  cursor: default;
+}
+
+#contact-picture {
+  margin: 5px 10px auto auto;
+  border-radius: 25px;
+  border: 1px solid black;
+  float: left;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+#contact h2 {
+  font-size: 20px;
+  float: left;
+  height: 30px;
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 11px;
+}
+
+#contact-name {
+  min-width: 15vw;
+}
+
+#contact-email {
+  min-width: 25vw;
+}
+
+#contact-phone {
+  min-width: 15vw;
+}
+
+#contact-company {
+  min-width: 20vw;
+}
+
+#deleteBtn {
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  float: left;
+  margin-top: 25px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+}
+
+#editBtn {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  float: left;
+  height: 30px;
+  width: 50px;
+  font-size: 15px;
+  margin: 25px 10px auto auto;
+}
